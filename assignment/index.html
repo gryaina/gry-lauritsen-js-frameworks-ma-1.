@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery plugin</title>
+	<link type="text/css" media="all" href="css/style.css" rel="stylesheet" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.slideshow').cycle({
+			fx: 'fade'
+		});
+	});
+	</script>
+</head>
+<body>
+<div class="slideshow">
+	<img src="images/1.jpg" width="700"/>
+	<img src="images/2.jpg" width="700"/>
+	<img src="images/3.jpg" width="700"/>
+</div>
+</body>
+</html>
